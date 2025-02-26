@@ -26,9 +26,17 @@ This project aims to build a full-stack e-commerce platform using the MERN stack
 4. Created a `server.js` file to configure the Express server.
 
 ### Frontend Setup
-1. Set up a React.js project in the `frontend` folder.
-2. Installed necessary packages: `react`, `react-dom`, `react-scripts`.
-3. Created a `.gitignore` file to exclude `node_modules`.
+1. Set up a Vite project in the `frontend` folder.
+2. Installed necessary packages: `react`, `react-dom`, `vite`, `@vitejs/plugin-react`.
+3. Updated the README file to reflect the new setup and instructions.
+
+## Migration from Create React App to Vite
+
+The frontend of this project has been migrated from Create React App (CRA) to Vite to improve development speed and performance. The following changes were made:
+
+- Uninstalled `react-scripts` and installed Vite.
+- Updated project structure to align with Vite's requirements.
+- Configured Vite with the necessary plugins for React.
 
 ## Next Steps
 - Continue developing the backend and frontend features as outlined in the project objectives.
