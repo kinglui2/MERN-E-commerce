@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NOVA E-commerce Frontend
 
-## Available Scripts
+A modern e-commerce application built with the MERN stack (MongoDB, Express.js, React, Node.js).
 
-In the project directory, you can run:
+## Project info
 
-### `npm start`
+**URL**: https://lovable.dev/projects/ed0246aa-a05e-48cd-8fcb-6ece20e0ff19
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- Vite (for fast development and optimized builds)
+- React 18 (with React Router for routing)
+- TypeScript (for type safety)
+- Tailwind CSS (for styling)
+- shadcn/ui (component library)
+- Lucide React (for icons)
+- React Query (for data fetching)
 
-### `npm test`
+### Backend (to be integrated)
+- MongoDB (database)
+- Express.js (server framework)
+- Node.js (runtime environment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+# Step 1: Clone the repository
+git clone <YOUR_GIT_URL>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Step 2: Navigate to the project directory
+cd <YOUR_PROJECT_NAME>
 
-### `npm run eject`
+# Step 3: Install the necessary dependencies
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Step 4: Start the development server
+npm run dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will be available at `http://localhost:8080`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/        # Reusable UI components
+├── pages/             # Page components
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions and helpers
+└── ...
+```
 
-## Learn More
+## Key Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Responsive design for all device sizes
+- Modern, clean user interface with smooth animations
+- Interactive product cards and category browsing
+- Shopping cart functionality
+- Product search capabilities
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+Simply open [Lovable](https://lovable.dev/projects/ed0246aa-a05e-48cd-8fcb-6ece20e0ff19) and click on Share -> Publish to deploy the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
