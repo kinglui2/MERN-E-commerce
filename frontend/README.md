@@ -1,33 +1,4 @@
 
-# NOVA E-commerce Frontend
-
-A modern e-commerce application built with the MERN stack (MongoDB, Express.js, React, Node.js).
-
-## Project info
-
-**URL**: https://lovable.dev/projects/ed0246aa-a05e-48cd-8fcb-6ece20e0ff19
-
-## Tech Stack
-
-### Frontend
-- Vite (for fast development and optimized builds)
-- React 18 (with React Router for routing)
-- TypeScript (for type safety)
-- Tailwind CSS (for styling)
-- shadcn/ui (component library)
-- Lucide React (for icons)
-- React Query (for data fetching)
-
-### Backend (to be integrated)
-- MongoDB (database)
-- Express.js (server framework)
-- Node.js (runtime environment)
-
-## Getting Started
-
-### Prerequisites
-- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
 ### Installation
 
 ```sh
@@ -56,18 +27,6 @@ src/
 ├── lib/               # Utility functions and helpers
 └── ...
 ```
-
-## Key Features
-
-- Responsive design for all device sizes
-- Modern, clean user interface with smooth animations
-- Interactive product cards and category browsing
-- Shopping cart functionality
-- Product search capabilities
-
-## Deployment
-
-Simply open [Lovable](https://lovable.dev/projects/ed0246aa-a05e-48cd-8fcb-6ece20e0ff19) and click on Share -> Publish to deploy the application.
 
 ## License
 
